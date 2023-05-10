@@ -30,5 +30,10 @@ class PruebasUnitarias {
 	void testMayorTabla() {
 		assertEquals(10, objeto.mayorTabla());
 	}
+	
+	@Test
+	void testPosicionTabla() {
+		assertEquals(4, objeto.posicionTabla(10));
+	}
 
 }
